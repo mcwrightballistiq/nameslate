@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- green #afc700
+      sky #272a2e
+      nameplate #2e2b27
+    -->
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Hello, World! • A-Frame</title>
+      <meta name="description" content="Hello, World! • A-Frame">
+      <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+    </head>
+    <body>
+      <a-assets>
+      <img id="namePlate" src="images/ballistiq-logo.jpg">
+      <img id="markHeadshot" src="images/mark.jpg">
+      <img id="jonHeadshot" src="images/jon_sangster.jpg">
+      <img id="sheldonHeadshot" src="images/sheldon.jpg">
+      <img id="tylerHeadshot" src="images/tyler.jpg">
+
+    </a-assets>
+
+
+
+    <a-scene>
+    <a-plane position="0 2.5 -2"
+    src="#namePlate"
+    rotation="0 0 0"
+    width="6"
+    height="1">
+  </a-plane>
+
+
+  <a-plane position="-2 8.5 -6"
+  src="#markHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+</a-plane>
+
+  <a-plane position="-1 6.5 -6"
+  src="#tylerHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+  <a-plane position="-4 5.5 -6"
+  src="#jonHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+  <a-plane position="1 7.5 -6"
+  src="#sheldonHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+
+<a-sky color="#272a2e"></a-sky>
+
+<a-camera position="0 1 4">
+<a-cursor color="#2E3A87">
+</a-camera>
+
+
+</a-scene>
+</body>
+</html>
