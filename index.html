@@ -6,7 +6,7 @@
     <html>
     <head>
       <meta charset="utf-8">
-      <title>Hello, World! • A-Frame</title>
+      <title>Hello, Ballistiq! • A-Frame</title>
       <meta name="description" content="Hello, World! • A-Frame">
       <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
     </head>
@@ -16,7 +16,23 @@
       <img id="markHeadshot" src="images/mark.jpg">
       <img id="jonHeadshot" src="images/jon_sangster.jpg">
       <img id="sheldonHeadshot" src="images/sheldon.jpg">
+      <img id="kelliHeadshot" src="images/kelli.jpg">
       <img id="tylerHeadshot" src="images/tyler.jpg">
+      <img id="nicoHeadshot" src="images/nico.jpg">
+      <img id="sebastienHeadshot" src="images/sebastien.jpg">
+      <img id="john_bowieHeadshot" src="images/john_bowie.jpg">
+      <img id="djHeadshot" src="images/dj.jpg">
+      <img id="alexandreHeadshot" src="images/alexandre.jpg">
+      <img id="jon2Headshot" src="images/jon.jpg">
+      <img id="kevinHeadshot" src="images/kevin.jpg">
+      <img id="leoHeadshot" src="images/leo.jpg">
+      <img id="clarenceHeadshot" src="images/clarence.jpg">
+
+      <img id="instructions" src="images/wsad.png">
+
+
+      <video id="introVideo" autoplay loop="true" src="images/intro.mp4">
+      <video id="artstationVideo" autoplay loop="true" src="images/artstation.mp4">
 
     </a-assets>
 
@@ -30,27 +46,43 @@
     height="1">
   </a-plane>
 
+ <a-plane position="-5 5.5 -6"
+  src="#jon2Headshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
 
-  <a-plane position="-2 8.5 -6"
+
+
+  <a-plane position="-4 5.5 -5.5"
+  src="#djHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+  <a-plane position="-3 5.5 -5"
   src="#markHeadshot"
   rotation="0 0 0"
   width="1"
   height="1">
 </a-plane>
 
-  <a-plane position="-1 6.5 -6"
+  <a-plane position="-2 5.5 -4.5"
   src="#tylerHeadshot"
   rotation="0 0 0"
   width="1"
   height="1">
   </a-plane>
-  <a-plane position="-4 5.5 -6"
+  <a-plane position="-1 5.5 -4"
   src="#jonHeadshot"
   rotation="0 0 0"
   width="1"
   height="1">
   </a-plane>
-  <a-plane position="1 7.5 -6"
+
+  <a-plane position="0 5.5 -3.5"
   src="#sheldonHeadshot"
   rotation="0 0 0"
   width="1"
@@ -58,9 +90,104 @@
   </a-plane>
 
 
+
+  <a-plane position="1 5.5 -3.5"
+  src="#kelliHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+
+
+  <a-plane position="2 5.5 -4"
+  src="#nicoHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+
+
+  <a-plane position="3 5.5 -4.5"
+  src="#sebastienHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+
+
+
+  <a-plane position="4 5.5 -5"
+  src="#john_bowieHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+
+
+  <a-plane position="5 5.5 -5.5"
+  src="#alexandreHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+
+
+
+  <a-plane position="-1 1 0"
+  src="#clarenceHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+
+  <a-plane position="0 1.25 .5"
+  src="#leoHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+  <a-plane position="1 1 0"
+  src="#kevinHeadshot"
+  rotation="0 0 0"
+  width="1"
+  height="1">
+  </a-plane>
+
+
+ <a-video position="-5 2 -3"
+  src="#introVideo"
+  rotation="0 45 0"
+  width="4"
+  height="4">
+  </a-video>
+
+ <a-video position="5 2 -3"
+  src="#artstationVideo"
+  src="#introVideo"
+  rotation="0 -45 0"
+  width="4"
+  height="4">
+  </a-video>
+
+
+  <a-image position="1 .5 2"
+  src="#instructions"
+  rotation="0 0 0"
+
+  >
+  </a-image>
+
+
 <a-sky color="#272a2e"></a-sky>
 
-<a-camera position="0 1 4">
+<a-camera position="0 1.5 4">
 <a-cursor color="#2E3A87">
 </a-camera>
 
